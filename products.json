@@ -1,30 +1,45 @@
 [
   {
     "id": 1,
-    "name": "Smart Scheduler",
-    "price": 49.99,
-    "description": "Automatically plans your day for maximum productivity.",
-    "image": "https://images.pexels.com/photos/538059/pexels-photo-538059.jpeg"
+    "name": "Automatic Pan Stirrer",
+    "price": 35.99,
+    "description": "Hands-free stirring for soups and sauces—saves you time at the stove.",
+    "image": "https://images.pexels.com/photos/4164714/pexels-photo-4164714.jpeg"
   },
   {
     "id": 2,
-    "name": "Magnetic Desk Organizer",
-    "price": 29.99,
-    "description": "Keep your workspace tidy with modular magnetic components.",
-    "image": "https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg"
+    "name": "Fast‑Chop Vegetable Processor",
+    "price": 42.50,
+    "description": "Dice vegetables in seconds with this electric chopper.",
+    "image": "https://images.pexels.com/photos/442386/pexels-photo-442386.jpeg"
   },
   {
     "id": 3,
-    "name": "Focus Pro Light",
-    "price": 39.99,
-    "description": "Portable desk light that helps you focus during deep work.",
-    "image": "https://images.pexels.com/photos/374714/pexels-photo-374714.jpeg"
+    "name": "Bluetooth Meat Thermometer",
+    "price": 24.99,
+    "description": "Monitor your roast remotely via smartphone—no more guesswork.",
+    "image": "https://images.pexels.com/photos/3768165/pexels-photo-3768165.jpeg"
   },
   {
     "id": 4,
-    "name": "Efficiency Planner",
-    "price": 19.99,
-    "description": "Design your perfect routine with this daily planner.",
-    "image": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg"
+    "name": "Smart Coffee Maker",
+    "price": 79.99,
+    "description": "Schedule coffee via app and wake up to a fresh cup.",
+    "image": "https://images.pexels.com/photos/414630/pexels-photo-414630.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Electric Jar Opener",
+    "price": 18.90,
+    "description": "Effortlessly open stubborn lids—save strength and time.",
+    "image": "https://images.pexels.com/photos/6401747/pexels-photo-6401747.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Cordless Mini Vacuum",
+    "price": 29.50,
+    "description": "Quick cleanups for kitchens and workstations in seconds.",
+    "image": "https://images.pexels.com/photos/4057695/pexels-photo-4057695.jpeg"
   }
 ]
+
