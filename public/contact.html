@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us – TimeSaver</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<header>
+  <h1>Contact Us</h1>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/cart.html">Cart</a>
+    <a href="/contact.html">Contact</a>
+    <a href="/shipping.html">Shipping</a>
+    <a href="/policy.html">Policy</a>
+  </nav>
+</header>
+
+<main class="container">
+  <form id="contact-form">
+    <h3>We’d love to hear from you</h3>
+    <input id="contact-name" placeholder="Name" required>
+    <input id="contact-email" placeholder="Email" type="email" required>
+    <textarea id="contact-message" rows="4" placeholder="Your message" required></textarea>
+    <button type="submit">Send Message</button>
+    <div id="contact-status" class="footer-note"></div>
+  </form>
+</main>
+
+<footer>© <span id="year"></span> TimeSaver</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+<script src="/js/contact.js"></script>
+</body>
+</html>
