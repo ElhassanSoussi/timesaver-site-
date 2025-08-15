@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checkout – TimeSaver</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<header>
+  <h1>Checkout</h1>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/cart.html">Cart</a>
+    <a href="/contact.html">Contact</a>
+    <a href="/shipping.html">Shipping</a>
+    <a href="/policy.html">Policy</a>
+  </nav>
+</header>
+
+<main class="container">
+  <div class="row">
+    <div style="flex:1 1 350px;">
+      <h3>Customer Details</h3>
+      <input id="name" placeholder="Full name">
+      <input id="email" placeholder="Email">
+      <input id="address" placeholder="Address">
+    </div>
+    <div style="flex:1 1 350px;">
+      <h3>Order Summary</h3>
+      <table class="table"><tbody id="summary"></tbody></table>
+      <div><strong>Total: $<span id="total">0.00</span></strong></div>
+      <button id="place">Place Order</button>
+      <div class="footer-note">Secure checkout — demo only.</div>
+    </div>
+  </div>
+</main>
+
+<footer>© <span id="year"></span> TimeSaver</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+<script src="/js/checkout.js"></script>
+</body>
+</html>
