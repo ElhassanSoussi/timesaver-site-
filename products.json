@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Smart Scheduler",
+    "price": 49.99,
+    "description": "Automatically plans your day for maximum productivity.",
+    "image": "https://images.pexels.com/photos/538059/pexels-photo-538059.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Magnetic Desk Organizer",
+    "price": 29.99,
+    "description": "Keep your workspace tidy with modular magnetic components.",
+    "image": "https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Focus Pro Light",
+    "price": 39.99,
+    "description": "Portable desk light that helps you focus during deep work.",
+    "image": "https://images.pexels.com/photos/374714/pexels-photo-374714.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Efficiency Planner",
+    "price": 19.99,
+    "description": "Design your perfect routine with this daily planner.",
+    "image": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg"
+  }
+]
