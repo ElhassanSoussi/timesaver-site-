@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TimeSaver — Best Sellers</title>
+  <meta name="description" content="Shop our best-selling productivity products.">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<header>
+  <h1>TimeSaver</h1>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/cart.html">Cart (<span id="cart-count">0</span>)</a>
+    <a href="/contact.html">Contact</a>
+    <a href="/shipping.html">Shipping</a>
+    <a href="/policy.html">Policy</a>
+  </nav>
+</header>
+
+<main class="container">
+  <h2>Best Sellers</h2>
+  <div id="grid" class="grid"></div>
+</main>
+
+<footer>© <span id="year"></span> TimeSaver</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+<script src="/js/main.js"></script>
+</body>
+</html>
