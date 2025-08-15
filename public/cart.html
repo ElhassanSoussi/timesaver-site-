@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Cart – TimeSaver</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<header>
+  <h1>Your Cart</h1>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/cart.html">Cart (<span id="cart-count">0</span>)</a>
+    <a href="/contact.html">Contact</a>
+    <a href="/shipping.html">Shipping</a>
+    <a href="/policy.html">Policy</a>
+  </nav>
+</header>
+
+<main class="container">
+  <table class="table">
+    <thead><tr><th>Item</th><th>Qty</th><th>Price</th><th>Total</th><th></th></tr></thead>
+    <tbody id="cart-body"></tbody>
+  </table>
+  <div class="row">
+    <div><strong>Subtotal: $<span id="subtotal">0.00</span></strong></div>
+    <div class="actions">
+      <a href="/"><button>Continue Shopping</button></a>
+      <a href="/checkout.html"><button>Checkout</button></a>
+    </div>
+  </div>
+</main>
+
+<footer>© <span id="year"></span> TimeSaver</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+<script src="/js/cart.js"></script>
+</body>
+</html>
