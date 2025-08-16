@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop – TimeSaver</title>
+  <meta name="description" content="Browse our curated selection of kitchen and electronic tools.">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="logo"><img src="/img/logo.png" alt="TimeSaver logo" /></div>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/shop.html">Shop</a>
+    <a href="/cart.html">Cart (<span id="cart-count">0</span>)</a>
+    <a href="/contact.html">Contact</a>
+    <a href="/shipping.html">Shipping</a>
+    <a href="/policy.html">Policy</a>
+  </nav>
+</header>
+
+<main class="container">
+  <h2>Our Products</h2>
+  <div id="grid" class="grid"></div>
+</main>
+
+<footer>© <span id="year"></span> TimeSaver</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+<script src="/js/main.js"></script>
+</body>
+</html>
