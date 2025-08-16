@@ -1,45 +1,17 @@
 [
   {
     "id": 1,
-    "name": "Automatic Pan Stirrer",
-    "price": 35.99,
-    "description": "Hands-free stirring for soups and sauces—saves you time at the stove.",
-    "image": "https://images.pexels.com/photos/4164714/pexels-photo-4164714.jpeg"
+    "name": "Automatic Pen Skinner",
+    "price": 30.99,
+    "description": "Hands-free peeling for hours - saves you time at the stove",
+    "image": "https://example.com/images/product1.jpg"
   },
   {
     "id": 2,
-    "name": "Fast‑Chop Vegetable Processor",
-    "price": 42.50,
-    "description": "Dice vegetables in seconds with this electric chopper.",
-    "image": "https://images.pexels.com/photos/442386/pexels-photo-442386.jpeg"
-  },
-  {
-    "id": 3,
-    "name": "Bluetooth Meat Thermometer",
-    "price": 24.99,
-    "description": "Monitor your roast remotely via smartphone—no more guesswork.",
-    "image": "https://images.pexels.com/photos/3768165/pexels-photo-3768165.jpeg"
-  },
-  {
-    "id": 4,
-    "name": "Smart Coffee Maker",
+    "name": "Smart Coffeemaker",
     "price": 79.99,
-    "description": "Schedule coffee via app and wake up to a fresh cup.",
-    "image": "https://images.pexels.com/photos/414630/pexels-photo-414630.jpeg"
-  },
-  {
-    "id": 5,
-    "name": "Electric Jar Opener",
-    "price": 18.90,
-    "description": "Effortlessly open stubborn lids—save strength and time.",
-    "image": "https://images.pexels.com/photos/6401747/pexels-photo-6401747.jpeg"
-  },
-  {
-    "id": 6,
-    "name": "Cordless Mini Vacuum",
-    "price": 29.50,
-    "description": "Quick cleanups for kitchens and workstations in seconds.",
-    "image": "https://images.pexels.com/photos/4057695/pexels-photo-4057695.jpeg"
+    "description": "Schedule coffee to wake up to a fresh brew",
+    "image": "https://example.com/images/product2.jpg"
   }
 ]
 
